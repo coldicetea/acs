@@ -1,0 +1,234 @@
+$brand-primary: #00B0FF;
+@import "bourbon";
+@import "bootstrap";
+@import "bootstrap/theme";
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "proxima-nova", sans-serif;
+}
+
+@media (min-width: $screen-sm) {
+  body {
+    margin: 0 0 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+.footer {
+  padding: 50px 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 300px;
+  width: 100%;
+  background: darken(#2e3234, 10%);
+}
+
+.footer img {
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+  filter: grayscale(100%);
+}
+
+.navbar {
+  background: #2e3234;
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.jumbotron {
+  padding: 100px 15px 100px 15px;
+  background: #039BE5;
+  background: url(https://www.paddle.com/assets/images/website-landing/loop-poster.jpg);
+}
+
+.navbar li,
+.navbar li a {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  line-height: 48.5px;
+}
+
+.navbar-text {
+  color: $brand-primary !important;
+}
+
+.jumbotron {
+  color: white;
+  margin-bottom: 0;
+}
+
+.jumbotron h2 {
+  font-size: em(45);
+  font-weight: 300;
+}
+
+.jumbotron p {
+  color: lighten($gray, 50%);
+  font-weight: 300;
+}
+
+.btn {
+  padding: 6px 20px;
+  border-radius: 40px;
+  transition: background 0.5s ease-in-out;
+}
+
+.btn-primary {
+  background: $brand-primary;
+  border: 0;
+}
+
+.btn-default {
+  background: transparent;
+  border: 1px #FFF solid;
+}
+
+.featurettes div {
+  padding: 0;
+  padding: 25px;
+  border-top: 1px #eee solid;
+  border-right: 1px #eee solid;
+  &:last-child {
+    border-right: 0;
+  }
+}
+
+.featurettes h3 {
+  margin-top: 0;
+}
+
+.news-bar {
+  background: white;
+  padding: 15px 0;
+}
+
+.news-bar p {
+  margin: 0;
+  padding: 0;
+}
+
+.copyright {
+  padding-top: 25px;
+  color: lighten(#2e3234, 25%);
+}
+
+.footer h4 {
+  margin-top: 0;
+  color: lighten(#2e3234, 35%);
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer li {
+  padding-bottom: 5px;
+}
+
+.footer label {
+  color: lighten(#2e3234, 35%);
+  font-weight: normal;
+}
+
+.footer .form-control {
+  background: lighten(#2e3234, 5%);
+  border: 1px lighten(#2e3234, 10%) solid;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+  outline: none;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.footer li a {
+  color: lighten(#2e3234, 55%);
+}
+
+.acrossnav {
+  background: #2e3234;
+  padding: 40px 0;
+}
+
+.acrossnav h2 {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.acrossnav .selected {
+  background: darken(#2e3234, 6%);
+}
+
+.acrossnav i {
+  font-size: em(60);
+}
+
+.acrossnav .section {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 15px;
+  color: white;
+  border-radius: 4px;
+  &:hover {
+    background: darken(#2e3234, 6%);
+  }
+}
+
+.banner {
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.banner p {
+  text-align: justify;
+  font-size: em(18);
+  line-height: 165%;
+}
+
+.pretty {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+}
+
+.pretty li {
+  padding: 8px;
+  border: 1px #eee solid;
+  border-top: 0;
+  &:first-child {
+    border-top: 1px #eee solid;
+  }
+  &:nth-child(even) {
+    background: lighten(#eee, 5%);
+  }
+}
+
+.featured-title i {
+  color: $brand-primary;
+}
+
+.contact-bar {
+  background: #eef1f2;
+  padding: 50px 0;
+}
