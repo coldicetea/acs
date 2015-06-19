@@ -7684,14 +7684,18 @@ body {
   margin-bottom: 40px; }
 
 /* line 177, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
+.acrossnav p {
+  color: #c7cbcd; }
+
+/* line 181, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
 .acrossnav .selected {
   background: #202224; }
 
-/* line 181, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
+/* line 185, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
 .acrossnav i {
   font-size: 3.75em; }
 
-/* line 185, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
+/* line 189, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
 .acrossnav .section {
   display: block;
   text-decoration: none;
@@ -7699,45 +7703,60 @@ body {
   padding: 15px;
   color: white;
   border-radius: 4px; }
-  /* line 192, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
+  /* line 196, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
   .acrossnav .section:hover {
     background: #202224; }
 
-/* line 197, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
+/* line 201, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
 .banner {
   margin-top: 40px;
   padding-bottom: 40px; }
 
-/* line 202, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
+/* line 206, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
 .banner p {
   text-align: justify;
   font-size: 1.125em;
   line-height: 165%; }
 
-/* line 208, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
+/* line 212, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
 .pretty {
   margin: 0;
   padding: 0;
   width: 100%;
   list-style: none; }
 
-/* line 215, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
+/* line 219, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
 .pretty li {
   padding: 8px;
   border: 1px #eee solid;
   border-top: 0; }
-  /* line 219, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
+  /* line 223, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
   .pretty li:first-child {
     border-top: 1px #eee solid; }
-  /* line 222, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
+  /* line 226, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
   .pretty li:nth-child(even) {
     background: #fbfbfb; }
 
-/* line 227, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
+/* line 231, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
 .featured-title i {
   color: #00B0FF; }
 
-/* line 231, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
+/* line 235, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
 .contact-bar {
   background: #eef1f2;
   padding: 50px 0; }
+
+/* line 240, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
+.fa-check {
+  color: #00C853; }
+
+/* line 244, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
+.fa-times {
+  color: #d9534f; }
+
+/* line 248, /Users/jacobhart/acsgj/source/stylesheets/custom.scss */
+hr {
+  border: 0;
+  margin: 50px 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.25), transparent); }
